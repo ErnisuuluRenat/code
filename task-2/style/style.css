@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F9F6F1;
+}
+
+@media screen and (max-width:1200px) {
+    .wrapper {
+        width: 100%
+        ;
+        margin: 0;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .menu {
+        
+    }
+
+    .first-screen {
+
+    }
+
+    .free-shiping {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .wrapper {
+        width: 80%;
+        background-color: #f9f6f1;
+        display: inline;
+    }
+
+    .catalog-1, .catalog-2 {
+        position: none;
+        display: inline;
+    }
+}
+
+
+
+@media  screen and (max-width:800px) {
+    .col {
+        display: inline;
+    }
+}
+    
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    padding-left: 12%;
+}
+
+.menu, .menu-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    margin-left: 90px;
+    margin-top: -7px;
+    margin-right: 15px;
+    
+}
+
+.title-logo {
+    margin-right: 90px;
+}
+
+.menu-item+.menu-item  {
+    margin-left: 45px;
+}
+
+.purchase-img {
+    margin-left: 65px;
+}
+
+.purchase-img-2 {
+    margin-left: 18px;
+}
+
+.main {
+    margin-top: 230px;
+}
+
+.first-screen {
+    display: flex;
+    padding-left: 12%;
+}
+
+.season-title {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+
+}
+
+.discount-title {
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    padding-bottom: 55px;
+}
+
+.first-button {
+    width: 240px;
+    height: 55px;
+    background-color: #D7B399;
+}
+
+.button-text {
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.first-screen-img {
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.free-shiping {
+    margin-top: 230px;
+    width: 100%;
+    background-color: #000;
+    height: 200px;
+    text-align: center;
+}
+
+.h1-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    padding-top: 50px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.h6-title {
+    padding-top: 25px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.col {
+    display: flex;
+    padding-left: 12%;
+}
+
+.men-col {
+    width: 50%;
+}
+
+.img-men {
+    margin-left: 50%;
+    margin-top: -18px;
+}
+
+.women-col {
+    width: 50%;
+}
+
+.img-women {
+    margin-left: 45%;
+    margin-top: -18px;
+}
+
+.col-p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    margin-top: 60px;
+}
+
+.p-col {
+    margin-top: 25px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.button-col {
+    width: 80px;
+    height: 30px;
+    background: #D7B399;
+    border-radius: 30px;
+}
+
+.catalog {
+    width: 100%;
+}
+
+.catalog-1, .catalog-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.p-catalog {
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 50px;
+}
+
+.new-items {
+    margin-top: 150px;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+}
+
+.new-models {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button-new {
+    margin-top: 150px;
+    margin-left: 45%;
+    width: 220px;
+    height: 55px;
+    background: #D7B399;
+}
+
+.p-bb {
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.subscribe {
+    height: 180px;
+    background-color: #000;
+    margin-top: 150px;
+}
+
+.sbsc {
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+}
+.h3-sbs {
+    font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+.email {
+    width: 255px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.sbs {
+    width: 185px;
+    height: 40px;
+    margin-left: 30px;
+    background: #D7B399;
+}
+
+.new-items-2 {
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 160px;
+    height: 295px;
+    background: #212121;
+}
+
+.footer {
+    display: grid;
+    grid-template: minmax(340px, 350px) 1fr/ 35% 64%;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+    margin: 8%;
+    padding-top: 30px;
+}
+
+.footer-row-1 h2 {
+    margin-top: 30px;
+    width: 220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.footer-panels a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-decoration: none;
+    color: #CBCFD4;
+
+    transition: .6s;
+}
+
+.footer-panels a:hover {
+    color: red;
+}
+
+.footer-panels {
+    display: inline-grid;
+    grid-template: minmax(340px, 350px) 1fr/ 24% 24% 24% 24%;
+}
+
+.footer-panels h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.copyring {
+    columns: 2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+
+    text-align: center;
+
+    margin-top: 37px;
+
+    color: #212121;
+}
+
+
+
+button {
+    background: #D7B399;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding: 14px;
+    letter-spacing: 0.03em;
+    border: none;
+
+    transition: .6s;
+    color: #FFFFFF;
+}
+
+
+img {
+    background: transparent;
+}
+
+.fa {
+    font-size: 16px;
+    margin-right: 4px;
+    color: #D7B399;
+}
+
+
+.column-1, .column-2, .column-3 {
+    margin-top: 0px;
+}
+
+.column-11, .column-22, .column-33, .column-44 {
+    margin-top: 30px;
+}
+
+.catalog-item {
+    margin-left: 25px;
+}
+
